@@ -138,6 +138,12 @@ export default class Gallery extends Component {
     }
   }
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.galleryViewPager.setPage(this.props.initialPage, true)
+    }, 10)
+  }
+
   shouldScrollViewPager(evt, gestureState) {
     if (gestureState.numberActiveTouches > 1) {
       return false
