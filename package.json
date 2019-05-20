@@ -1,6 +1,6 @@
 {
   "name": "react-native-gallery",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "main": "library/Gallery.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ldn0x7dc/react-native-gallery#readme",
   "dependencies": {
-    "@ldn0x7dc/react-native-view-pager": "https://github.com/dflourusso/react-native-view-pager",
+    "@ldn0x7dc/react-native-view-pager": "https://github.com/aerionTech/react-native-view-pager",
     "prop-types": "^15.6.1",
     "react-native-gesture-responder": "0.1.1",
     "react-native-transformable-image": "git+https://github.com/aerionTech/react-native-view-transformer.git#master"
